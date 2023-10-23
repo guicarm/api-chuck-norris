@@ -1,0 +1,79 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: rgb(25, 98, 207);
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  background-color: #e2f2ff;
+  padding: 10px 20px;
+  border: 2px solid #333;
+  border-radius: 10px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  background-color: #79d6d6;
+  padding: 10px 20px;
+  border: 2px solid #333;
+  border-radius: 10px;
+}
+
+#botoes {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(7, 37, 82);
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  background-color: #e2f2ff;
+  padding: 10px 20px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  margin-right: 10px;
+}
+
+#botoes:active {
+  transform: scale(0.95);
+}
+
+#botaoRemover {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(7, 37, 82);
+  text-align: center;
+  background-color: #e2f2ff;
+  padding: 10px 20px;
+  border: 2px solid #333;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  margin-left: 10px;
+}
+
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #abc5e4;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+}
+
+li:hover {
+  background-color: #2f86c0;
+}
